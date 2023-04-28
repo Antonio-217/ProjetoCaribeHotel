@@ -1,0 +1,1 @@
+Este é um site para um hotel com temática de pirata, estou incrementando ainda para usar database.
