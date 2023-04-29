@@ -1,0 +1,152 @@
+@font-face {
+    font-family: fonte;
+    src: url(../fonte/MADEOkineSansPERSONALUSE-Medium.otf);
+  }
+  
+  .cabecalho{
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #titulo{
+    font-family: fonte;
+    color: white;
+    font-size: 70px;
+    margin-top: 55px;
+    text-align: center;
+  
+  }
+  
+  .menu{
+    background-color: rgb(158, 0, 0);
+    width: auto;
+    height: auto;
+  }
+  
+  #detalhe{
+    background-color: rgb(199, 146, 0);
+    width: auto;
+    height: auto;
+  }
+  
+  ul#menu li {
+   display: inline;
+   position: sticky; 
+  }
+  
+  ul#menu li a {
+    font-family: fonte;
+    background-color: rgb(158, 0, 0);
+    font-weight: bolder; /* para negrito; */
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    opacity: 1;
+    margin-left: 70px;
+    margin-right: 30px;
+  }
+  
+  ul#menu li a:hover {
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: fonte;
+  }
+  
+  #div1{
+    margin-left: -330px;
+    margin-right: auto;
+    width: 140%;
+    text-align: center;
+  }  
+  
+  #logo{
+    width: 200px;
+    height: 170px;
+    margin-bottom: 32px;
+  }
+  
+  .fundo{
+    
+    float: inline-start;
+    width: 1650px;
+    height: 1000px;
+  }
+  
+  .rodape{
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 200px;
+    display: flex;
+    align-items: left;
+  }
+  
+  .endereco{
+    color: white;
+    font-family: fonte;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 25px;
+    margin-left: 100px;
+  }
+  
+  .contato{
+    color: white;
+    font-family: fonte;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 25px;
+    margin-left: 200px;
+  }
+  
+  .composicao{
+    color: white;
+    font-family: fonte;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 25px;
+    margin-left: 180px;
+  }
+  
+  .programacao{
+    color: white;
+    font-family: fonte;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 25px;
+    margin-left: 200px;
+  }
+
+  #p1{
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: fonte;
+    text-align: center;
+}
+
+#div_geral{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  width: 1250px;
+}
+
+#div_geral2{
+  background-color: white;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  width: 1250px;
+}
+
+#div_fundo{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}

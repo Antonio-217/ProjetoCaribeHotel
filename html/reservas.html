@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reservas.css">
+    <title>Reservas</title>
+</head>
+<body>
+    
+    <header>
+        <div class="cabecalho">
+            <img id="logo" src="../imagens/logo.png" alt="pirata_banner">
+            <p id="titulo">CARIBE HOTEL</p>
+            <img id="logo" src="../imagens/logo.png" alt="pirata_banner">
+        </div>
+        <div class="menu">
+            <div id="div1" style="border:1px">
+                   <ul id="menu">
+                     <li><a href="../index.html" target="">HOME</a></li>
+                     <li><a href="reservas.html" target="">RESERVAS</a></li>
+                     <li><a href="../html/eventos.html" target="">EVENTOS</a></li>
+                     <li><a href="../html/galeriafotos.html" target="">GALERIA DE FOTOS</a></li>
+                     <li><a href="../html/contatos.html" target="">CONTATOS</a></li>
+                   </ul>
+               </div>
+        </div>
+        <div id="detalhe"></div>
+    </header>
+
+    <div class="reserva">
+        <form class="formulario" action="../html/fake.html" method="GET">
+            <label class="label">Nome:</label>
+            <input id="input" type="text" name="nome" placeholder="Digite o nome aqui" required tabindex="1">
+            <br>
+            <label class="label" for="sobrenome">Sobrenome:</label>
+               <input id="input" type="text" name="sobrenome" placeholder="Digite o sobrenome aqui" required>
+               <br>
+               <label class="label" for="numero">Número:</label>
+            <input id="input" type="text" name="idade" placeholder="Digite o número aqui">
+            <br>
+            <label class="label">Email:</label>
+            <input id="input" type="email" name="email" placeholder="Digite o email aqui">
+            <br>
+            <label class="label" for="data">Data da hospedagem:</label>
+            <input id="input" type="date" name="data" >
+            <br>
+            <label class="label" for="linguagem">Idioma nativo:</label>
+            <select id="select" name="linguagens">
+                <option value=""></option>
+                <option value="INGLÊS">INGLÊS</option>
+                <option value="ESPANHOL">ESPANHOL</option>
+                <option value="PORTUGUÊS">PORTUGUÊS</option>
+            </select>
+            <br>
+            <label class="label" for="linguagens">Dias de hospedagem:</label>
+            <br>
+            <input class="checkbox" type ="checkbox" value="css" name="linguagens">3 Dias
+            <input class="checkbox" type="checkbox" value="html" name="linguagens">5 Dias
+            <input class="checkbox" type="checkbox" value= "php" name=" linguagens">7 Dias
+            <br>
+            <label class="label" for="time">Solicitar estacionamento:</label>
+            <input id="radio" type="radio" value="inter" name="time-preferido"> Sim
+            <input id="radio" type="radio" value="gremio" name="time-preferido"> Não
+            <br>
+            <input class="botao" id="enviar" type="submit" value="Reservar" tabindex="2">
+        </form>
+       </div>
+
+ <footer>
+      <div class="rodape">
+        <div>
+          <ul class="endereco">
+            <li><h1>Endereço</h1></li>
+            <li><p>Stratosphere Las Vegas</p></li>
+            <li><p>2000 Las Vegas Blvd S</p></li>
+            <li><p>NV 89104</p></li>
+            <li><p>Buccaneer Bay</p></li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="contato">
+            <li><h1>Contato</h1></li>
+            <li><p>Email: antonioneto.va598@academico.ifsul.edu.br</p></li>
+            <li><p>Fone: 51955533322</p></li>
+            <li><p>Fone: 51988776655</p></li>
+            <li><p>Fax: 123-555-0001</p></li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="composicao">
+            <li><h1>Composição</h1></li>
+            <li><p>Eventos Diários</p></li>
+            <li><p>Parque de diversões</p></li>
+            <li><p>Bar aberto 24h</p></li>
+            <li><p>Piscina e muito mais</p></li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="programacao">
+            <li><h1>Programação</h1></li>
+            <li><p>13:00 - Teatro</p></li>
+            <li><p>15:00 - Pintura</p></li>
+            <li><p>17:00 - Dança</p></li>
+            <li><p>20:00 - Caça ao tesouro</p></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
